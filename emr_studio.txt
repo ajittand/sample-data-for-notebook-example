@@ -1,0 +1,23 @@
+Amazon EMR Studio
+EMR Studio (preview) is an integrated development environment (IDE) that makes it easy for data scientists and data engineers to develop, visualize, and debug data engineering and data science applications written in R, Python, Scala, and PySpark.
+
+EMR Studio provides fully managed Jupyter Notebooks, and tools like Spark UI and YARN Timeline Service to simplify debugging. EMR Studio uses AWS Single Sign-On and allows you to log in directly with your corporate credentials without logging into the AWS console. Data scientists and analysts can install custom kernels and libraries, collaborate with peers using code repositories such as GitHub and BitBucket, or execute parameterized notebooks as part of scheduled workflows using orchestration services like Apache Airflow or Amazon Managed Workflows for Apache Airflow.
+
+EMR Studio kernels and applications run on EMR clusters, so you get the benefit of distributed data processing using the performance optimized Amazon EMR runtime for Apache Spark. Administrators can set up EMR Studio such that analysts can run their applications on existing EMR clusters or create new clusters using pre-defined AWS Cloud Formation templates for EMR.
+
+Benefits
+Simple to use
+EMR Studio makes it simple to interact with applications on an EMR cluster. You can access EMR Studio with your corporate credentials using AWS Single Sign-On, without logging into the AWS console or the cluster. You can interactively explore, process and visualize data using notebooks, build and schedule pipelines, and debug applications without logging into EMR clusters.
+Fully managed Jupyter Notebooks
+With EMR Studio, you can start developing analytics and data science applications in R, Python, Scala, and PySpark in seconds with fully managed Jupyter Notebooks. You can attach notebooks to existing EMR clusters or auto-provision clusters using pre-configured templates to run jobs. You can collaborate with others using repositories, and install custom Python libraries or kernels directly from Notebooks.
+Easy to build production pipelines
+EMR Studio makes it easy for you to move from prototyping to production. You can trigger pipelines from code repositories, simply run Notebooks as pipelines using orchestration tools like Apache Airflow or Amazon Managed Workflows for Apache Airflow, or attach notebooks to a bigger cluster using a single click.
+Simplified debugging
+With EMR Studio, you can debug jobs and access logs without logging into the cluster for both active and terminated clusters. You can use native application interfaces such as Spark UI and YARN timeline service directly from EMR Studio. EMR Studio also allows you to quickly locate the cluster or job to debug by using filters such as cluster state, creation time, and cluster ID.
+Use cases
+Ad-hoc analysis
+With EMR Studio, you can log in directly to fully managed notebooks without logging into the AWS console, start notebooks in seconds, get onboarded with sample notebooks, and perform your data exploration. You can collaborate with peers by sharing notebooks via GitHub and other repositories. You can also customize your environment by loading custom kernels and Python libraries from notebooks.
+Deploy production pipelines
+In EMR Studio, you can use code repository to trigger pipelines. You can also parameterize and chain notebooks to build pipelines. You can integrate notebooks into scheduled workflows using workflow orchestration services such as Apache Airflow or Amazon Managed Workflows for Apache Airflow. EMR Studio also allows you to re-attach notebooks to a bigger cluster to run a job.
+Simplify debugging applications
+In EMR Studio, you can debug notebook applications from the notebook UI. You can also debug pipelines by first narrowing down clusters using filters like cluster state, and diagnose jobs on both active and terminated clusters with as few clicks as possible to open native debugging UIs like Spark UI, Tez UI, and Yarn Timeline Service.
